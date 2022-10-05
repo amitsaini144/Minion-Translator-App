@@ -1,0 +1,94 @@
+
+:root {
+    --yellow-color: #f7b206;
+}
+
+body {
+
+    font-family: 'Helvetica',sans-serif;
+    background-image: url(pictures/minion7.jpg);
+    background-repeat: no-repeat;
+    background-size: 240px 140px;
+    margin: auto;
+    background-position-x: 100%;
+    background-position-y: 200px;
+}
+
+.mainpage {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.heading {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 120px;
+    background-color: var(--yellow-color);
+    border-radius: 0px 0px 15px 15px;
+}
+
+h4 {
+    background-color: var(--yellow-color);
+    width: 70%;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0%;
+    margin-bottom: 2px;
+    border-radius: 10px 0px;
+}
+
+.inputText {
+    width: 70%;
+    height: 150px;
+    border: 2px solid var(--yellow-color);
+    border-radius: 10px;
+}
+
+.translate-btn {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F59E0B;
+    color:white;
+    border-radius: 15px 0px;
+    border: 0px;
+}
+
+.translate-btn:hover {
+    background-color: chocolate;
+}
+
+.outputText {
+    width: 70%;
+    height: 110px;
+    border: 2px solid var(--yellow-color);
+    border-radius: 10px;
+}
+
+#foot {
+    text-align: center;
+    padding: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: var(--yellow-color);
+    border-radius: 15px 15px 0px 0px ;
+
+}
+
+#foot h1 {
+    text-align: center;
+}
+
+#foot p {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    padding: 2px;
+}
